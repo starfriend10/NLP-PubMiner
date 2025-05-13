@@ -37,7 +37,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 | WOS (Core data) | Subscription | Direct search | 2787 |
 | WOS (Core data) | Subscription | NLP-PubMiner | 4500 |
 
-"Direct search via WOS (Core data)"
+*Direct search via WOS (Core data)*
 <img src="https://github.com/starfriend10/NLP-PubMiner/blob/main/Example%20search.png" width="800">
 <br>
 
