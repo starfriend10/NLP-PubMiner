@@ -28,7 +28,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 ## Why NLP-PubMiner?
 ### Search publications in decarbonization & wastewater
 > [!TIP]
-> Summary of outcomes (the numbers obtained in 2023):
+> Summary of outcomes (the numbers were obtained in 2023):
 
 | Database | Accessibility | Method | Number of publications |
 | --- | --- | --- | --- |
