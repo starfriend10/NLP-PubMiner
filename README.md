@@ -26,8 +26,8 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 
 ## Example
 ### Indentify wastewater N2O emission publications ([Song et al. (2024)](https://doi.org/10.1038/s41893-024-01420-9))
-> [!FFF]
-Five major steps:
+> [!TIP]
+> Five major steps:
 * Step 1. This step roughly collected about >330,000 of raw full publication records between 1900-2023 (updated in January 2023) from Web of Science based on general keywords, including wastewater, waste-water, waste water, activated sludge, sewage, sewer, sewerage, anaerobic digestion, anaerobic codigestion, anaerobic co-digestion, anammox, water resource recovery facility, nitrification, denitrification, black water, grey water, gray water, blackwater, greywater, graywater.
 * Step 2. Titles, abstracts, and keywords of the collected publications were pretreated using natural language processing (NLP) methods, including n-grams (one, two, three, and four adjacent words) word-tokenization, lowercasing, stop-word removal, and stemming. This step helped to develop a searchable database for the step 3.
 * Step 3. To better exclude irrelevant literature, we applied a finer screening based on N2O keywords (n2o, nitrous oxide), emission keyword (emission), and wastewater-related terminologies (to exclude noises from raw data), including:
