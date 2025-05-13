@@ -35,3 +35,17 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 * Step 4. The step 3 helped to retain about 1540 relevant papers. A further fine search was conducted using abstract (tokenized to sentences). The search was taken to exclude irrelevant or laboratory-scale keywords (e.g., life cycle assessment, bench scale, laboratory scale) and other domain-focused (e.g., river, lake, surface water, wetland, soil, aquifer, groundwater) papers. Papers mentioned model-related keywords were not removed at this step because we found that it was possible for these studied to use field measurement data to calibrate model. This step left about 970 papers for a general inspection. 
 * Step 5. A general inspection was taken based on the title and abstract. Relevant papers were subsequently retrieved and gathered for manual review and data acquisition. It is worthwhile to note that a large fraction of potential papers was related to N2O production rather than N2O emission and some other papers investigated N2O emissions from industrial activities (e.g., swine wastewater, dairy farm, abattoir, decentralized treatment), grasslands, farmland wastewater treatment, so they were excluded from the database. In addition, we only focused on intensive engineered treatment systems and excluded studies on natural or constructed wetlands.
 
+
+## License
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
