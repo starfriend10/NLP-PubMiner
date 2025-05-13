@@ -26,7 +26,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 <br>
 
 ## Why NLP-PubMiner?
-### Search publications in decarbonization & wastewater
+### Example of publication search in decarbonization & wastewater
 > [!TIP]
 > Summary of outcomes (the numbers were obtained in 2023):
 
@@ -38,7 +38,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 | WOS (Core data) | Subscription | NLP-PubMiner | 4500 |
 <br>
 
-## Example
+## Example of use case
 ### Indentify wastewater N2O emission publications
 > [!TIP]
 > Major steps ([Song et al. (2024)](https://doi.org/10.1038/s41893-024-01420-9)):
