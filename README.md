@@ -28,6 +28,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 ### Search publications in decarbonization & wastewater (the numbers obtained in 2023)
 > [!TIP]
 > Summary of outcomes:
+
 | Database | Accessibility | Method | Number of publications |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | PubMed | Free | Direct search | 910 |
