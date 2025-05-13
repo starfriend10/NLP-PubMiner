@@ -24,6 +24,18 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 - [x] Yang, M., Zhu, J. J., McGaughey, A. L., Priestley, R. D., Hoek, E. M., Jassby, D., & Ren, Z. J. (2024). Machine learning for polymer design to enhance pervaporation-based organic recovery. *Environmental Science & Technology*, 58(23), 10128-10139. [https://doi.org/10.1021/acs.est.4c00060](https://doi.org/10.1021/acs.est.4c00060)
 
 
+## Why use NLP-PubMiner?
+### Search publications in decarbonization & wastewater (the numbers obtained in 2023)
+> [!TIP]
+> Summary of outcomes:
+| Database | Accessibility | Method | Number of publications |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PubMed | Free | Direct search | 910 |
+| Scopus | Subscription | Direct search | 4119 |
+| WOS (Core data) | Subscription | Direct search | 2787 |
+| WOS (Core data) | Subscription | NLP-PubMiner | 4500 |
+
+
 ## Example
 ### Indentify wastewater N2O emission publications ([Song et al. (2024)](https://doi.org/10.1038/s41893-024-01420-9))
 > [!TIP]
