@@ -22,7 +22,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 ### Resource recovery
 - [x] Yang, M., Zhu, J. J., McGaughey, A., Zheng, S., Priestley, R. D., & Ren, Z. J. (2023). Predicting extraction selectivity of acetic acid in pervaporation by machine learning models with data leakage management. *Environmental Science & Technology*, 57(14), 5934-5946. [https://doi.org/10.1021/acs.est.2c06382](https://doi.org/10.1021/acs.est.2c06382)
 - [x] Yang, M., Zhu, J. J., McGaughey, A. L., Priestley, R. D., Hoek, E. M., Jassby, D., & Ren, Z. J. (2024). Machine learning for polymer design to enhance pervaporation-based organic recovery. *Environmental Science & Technology*, 58(23), 10128-10139. [https://doi.org/10.1021/acs.est.4c00060](https://doi.org/10.1021/acs.est.4c00060)
-
+<br>
 
 ## Why use NLP-PubMiner?
 ### Search publications in decarbonization & wastewater
@@ -35,7 +35,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 | Scopus | Subscription | Direct search | 4119 |
 | WOS (Core data) | Subscription | Direct search | 2787 |
 | WOS (Core data) | Subscription | NLP-PubMiner | 4500 |
-
+<br>
 
 ## Example
 ### Indentify wastewater N2O emission publications
@@ -47,7 +47,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 <i>wastewater, wastewater treatment, wastewater treatment process, wastewater treatment plant, wwtp, waste water, waste water treatment, waste water treatment process, waste water treatment plant, wastewater utility, sewage, sewage water, sewage treatment, sewage water treatment, sewage treatment plant, sewage water treatment plant, water resource recovery facility, wrrf, wastewater treatment facility, wwtf, water reclamation plant, activated sludge, activated sludge process,  activated sludge model, sewer, sewerage, primary clarifier, secondary clarifier, grit tank, anoxic tank, denitrification, nitrification, anaerobic digestion, anaerobic codigestion, anaerobic co digestion, struvite precipitation, anammox, nitrogen removal, partial nitrification, mlss, mlvss, solids retention time, solids residence time, mean cell residence time, aerobic reactor,  nitrifier denitrification, heterotrophic denitrification, biological nitrogen removal, tertiary treatment, enhanced biological nitrogen removal, denitrifying phosphorus removal, ebpr, collection system, sequencing batch reactor,  advanced oxidation process, sludge age, sludge volume index, return activated sludge, mixed liquor suspended solids, wasted sludge, granular sludge,  sludge blanket, extracellular polymeric substance, sludge granule, sludge treatment, sludge handling, sludge disposal, sludge pretreatment, sludge dewatering, combined sewage overflow, cso, publicly owned treatment work, potw, biosolids, F/M ratio, stabilization pond, rotating biological disk, upflow anaerobic sludge, up flow anaerobic sludge, uasb, trickling filter, biofilm, biofilm reactor, biofilm bioreactor, membrane bioreactor, black water, grey water, gray water, blackwater, greywater, graywater, anaerobic baffled reactor, anaerobic/anoxic/oxic, anaerobic anoxic oxic, a2o, a2/o, anoxic/oxic, rotatory biological contactor, anaerobic/oxic, upflow anaerobic filter, modified ludzack ettinger, contact stabilization, step feed, high purity oxygen, extended aeration, oxidation ditch, nitritation, denitritation, force main, gravity main, rising main, pumping station.</i>
 * Step 4 (the second part of Step II in NLP-PubMiner). The step 3 helped to retain about 1540 relevant papers. A further fine search was conducted using abstract (tokenized to sentences). The search was taken to exclude irrelevant or laboratory-scale keywords (e.g., life cycle assessment, bench scale, laboratory scale) and other domain-focused (e.g., river, lake, surface water, wetland, soil, aquifer, groundwater) papers. Papers mentioned model-related keywords were not removed at this step because we found that it was possible for these studied to use field measurement data to calibrate model. This step left about 970 papers for a general inspection. 
 * Step 5. A general inspection was taken based on the title and abstract. Relevant papers were subsequently retrieved and gathered for manual review and data acquisition. It is worthwhile to note that a large fraction of potential papers was related to N2O production rather than N2O emission and some other papers investigated N2O emissions from industrial activities (e.g., swine wastewater, dairy farm, abattoir, decentralized treatment), grasslands, farmland wastewater treatment, so they were excluded from the database. In addition, we only focused on intensive engineered treatment systems and excluded studies on natural or constructed wetlands.
-
+<br>
 
 ## License
 
