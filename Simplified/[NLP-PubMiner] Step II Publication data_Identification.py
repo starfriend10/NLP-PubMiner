@@ -56,8 +56,8 @@ df_topic = df2[df2.index.isin(lst_pub)].reset_index().drop(['index'], axis = 1) 
 df_topic.to_csv('02 Initial preprocessed data.csv', index = False) #save the initial list
 
 
-##stop here if there are few publications in your initial list and change the previous keywords to boost your results
-##proceed to the following session if the initial list is huge and you want to screen out irrelevant publication to reduct the labor load for expert data retrieval
+##stop here if there are only a few publications in your initial list and change the previous keywords to boost your results
+##proceed to the following session if the initial list is huge and you want to screen out irrelevant publication to reduce the labor load for expert data retrieval
 
 ###remove irrelevant data#######################################################
 
