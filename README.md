@@ -26,7 +26,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 <br>
 
 ## Why NLP-PubMiner?
-### Example of publication search in decarbonization & wastewater
+### Example of a publication search on decarbonization and wastewater
 > [!TIP]
 > Summary of outcomes (the numbers were obtained in 2023):
 
@@ -38,7 +38,7 @@ The agorithm shared in this repository is a updated, simplified version mainly d
 | WOS (Core data) | Subscription | NLP-PubMiner | 4500 |
 
 *Direct search via WOS (Core data)*
-<img src="https://github.com/starfriend10/NLP-PubMiner/blob/main/Example%20search.png" width="1000">
+<img src="https://github.com/starfriend10/NLP-PubMiner/blob/main/Example%20search.png" width="1200">
 <br>
 
 ## Example of use case
