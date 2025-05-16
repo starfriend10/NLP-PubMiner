@@ -71,7 +71,7 @@ def irre_ct(df):
     listwords1 = df.iloc[i, -1].split('; ')
     listwords2 = df.iloc[i, -2].split('; ') 
     listwords = listwords1 + listwords2    
-    if any(i in lst_irre2 for i in listwords):
+    if any(i in lst_irre_keywords for i in listwords):
         counts = [listwords.count(w) for w in lst_irre_keywords] #option 1. use the comprehensive listwords; pro: cover mutiple words, cons: the frequency can be overcounted due to repeating [you may add an addition step to count unique anti-keywords]
         #kwlist1 = word_tokenize(df.iloc[i, 3]) #option 2. use 'word_tokenize' and focus on single word; pro: no repeating, cons: only single words
         #kwlist2 = [nat_lang(w) for w in kwlist1] #option 2
