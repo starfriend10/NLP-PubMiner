@@ -64,17 +64,18 @@ df_topic.to_csv('02 Initial preprocessed data.csv', index = False) #save the ini
 from nltk.tokenize import word_tokenize
 
 #anti-keywords
-lst_irre = ['keyword x', 'another keyword y', 'another keyword z'] #change the anti-keywords as needed to refine the anti-identification
-lst_irre2 = [nat_lang(w) for w in lst_irre]
+lst_irre_kw = ['keyword x', 'another keyword y', 'another keyword z'] #change the anti-keywords as needed to refine the anti-identification
+lst_irre_keywords = [nat_lang(w) for w in lst_irre_kw]
 
 def irre_ct(df):
     listwords1 = df.iloc[i, -1].split('; ')
     listwords2 = df.iloc[i, -2].split('; ') 
     listwords = listwords1 + listwords2    
     if any(i in lst_irre2 for i in listwords):
-        kwlist1 = word_tokenize(df.iloc[i, 3])
-        kwlist2 = [nat_lang(w) for w in kwlist1]
-        counts = [kwlist2.count(w) for w in lst_irre2]
+        counts = [listwords.count(w) for w in lst_irre_keywords] #option 1. use the comprehensive listwords; pro: cover mutiple words, cons: the frequency can be overcounted due to repeating [you may add an addition step to count unique anti-keywords]
+        #kwlist1 = word_tokenize(df.iloc[i, 3]) #option 2. use 'word_tokenize' and focus on single word; pro: no repeating, cons: only single words
+        #kwlist2 = [nat_lang(w) for w in kwlist1] #option 2
+        #counts = [kwlist2.count(w) for w in lst_irre_keywords] #option 2
         sumcts = sum(counts) #count the frequency of a anti-keywords
     else:
         sumcts = 0
